@@ -23,11 +23,6 @@ export const sidebar = {
       heading: 'Contact & Social',
       rows: [
         {
-          icon: 'envelope',
-          heading: '{{ email }}',
-          href: 'mailto:{{ email }}'
-        },
-        {
           icon: 'github',
           heading: 'github.com/psoaresbj',
           href: 'https://github.com/psoaresbj'
@@ -38,9 +33,16 @@ export const sidebar = {
           href: 'https://www.linkedin.com/in/soarespaulo/'
         },
         {
+          icon: 'envelope',
+          heading: '{{ email }}',
+          href: 'mailto:{{ email }}',
+          visiblityAttr: 'email'
+        },
+        {
           icon: 'phone',
           heading: '{{ phone }}',
-          href: 'tel:{{ phone }}'
+          href: 'tel:{{ phone }}',
+          visiblityAttr: 'phone'
         }
       ]
     },
@@ -154,6 +156,22 @@ export const sidebar = {
         {
           icon: 'school',
           heading: 'BA IT Eng. - ESTIG - Beja'
+        }
+      ]
+    },
+    {
+      heading: 'CV Code',
+      nonExandable: true,
+      rows: [
+        {
+          content: [
+            {
+              type: 'text',
+              items: [
+                "I've created this CV project in a public repository. Please check it [here](https://github.com/psoaresbj/cv)."
+              ]
+            }
+          ]
         }
       ]
     }
