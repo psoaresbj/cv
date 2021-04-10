@@ -1,0 +1,36 @@
+{
+  "name": "my-cv",
+  "description": "Nextjs, Styled Components and Prismic project, cv, curriculum",
+  "version": "1.0.0",
+  "author": "Paulo Soares - @psoaresbj",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "eslint": "^7.21.0",
+    "eslint-config-uphold-react": "^1.0.0",
+    "prettier": "1.18.2"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@psoares/svg-list": "^1.1.6",
+    "html-react-parser": "^1.2.4",
+    "next": "^10.0.1",
+    "polished": "^4.1.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-styled-flexboxgrid": "^3.2.1",
+    "styled-components": "^5.2.1",
+    "styled-gen": "^1.4.8",
+    "styled-reset": "^4.3.4"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "generate:icons": "yarn svglist generate",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cv"
+  }
+}
